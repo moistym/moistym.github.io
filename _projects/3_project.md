@@ -1,81 +1,64 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Light Intensity Measurement & Validation of Radiative Laws
+description: Experimental validation of the inverse-square law and Lambert’s cosine law using Arduino sensing and MATLAB analysis.
+img: assets/img/arduino_ldr_cover.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focused on experimentally measuring light intensity using an Arduino-based sensing platform to validate two fundamental radiative principles: the inverse-square law and Lambert’s cosine law. The system combined hardware interfacing, data acquisition, and numerical analysis to compare theoretical predictions against measured results under controlled conditions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Experimental Setup
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+An Arduino Uno was configured with a light-dependent resistor (LDR) in a voltage-divider circuit to measure illumination in analog-to-digital converter (ADC) units. The sensor output voltage varied with incident light intensity and was sampled through the Arduino’s A0 analog input.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Two experimental configurations were conducted:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Intensity vs. Distance:** Measurements taken from 1 ft to 20 ft with the sensor oriented normal to the light source.
+- **Intensity vs. Angle:** Measurements collected from −90° to +90° at a fixed distance to study angular dependence.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Data was streamed over serial communication and post-processed in MATLAB.
 
-{% raw %}
+## Data Analysis & Modeling
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Measured data was fit against theoretical models:
 
-{% endraw %}
+- **Inverse-Square Law:**  
+  \[
+  I(r) = \frac{a}{r^2}
+  \]
+
+- **Lambert’s Cosine Law:**  
+  \[
+  I(\alpha) = b \cos(\alpha) + c
+  \]
+
+Custom MATLAB scripts were developed to perform nonlinear curve fitting, compute residuals, and evaluate goodness of fit using the coefficient of determination (R²).
+
+### Key Results
+
+- **Lambert’s Cosine Law:** Strong agreement with experimental data, achieving **R² = 0.927**, confirming angular dependence of irradiance.
+- **Inverse-Square Law:** Qualitative agreement observed, though deviations from the ideal \(1/r^2\) trend occurred due to ambient light interference, alignment sensitivity, and the non-point nature of the light source.
+
+## Technical Contributions
+
+- Designed and implemented an Arduino LDR sensing circuit
+- Developed MATLAB models for curve fitting and validation
+- Performed experimental uncertainty analysis and diagnostics
+- Integrated hardware sensing with numerical modeling workflows
+
+## Conclusion
+
+The experiment successfully validated Lambert’s cosine law with high accuracy and demonstrated qualitative inverse-square behavior under real-world constraints. This project highlights practical challenges in experimental physics while reinforcing core radiative principles through hands-on instrumentation and data-driven analysis.
+
+## Documentation
+
+<iframe 
+  src="/assets/pdf/arduino-ldr-report.pdf"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
