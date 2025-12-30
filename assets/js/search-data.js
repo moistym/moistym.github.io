@@ -38,9 +38,9 @@ ninja.data = [{
           description: "Edge AI for autonomous drone security and real-time alerting",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-light-intensity-measurement-amp-validation-of-radiative-laws",
+          title: 'Light Intensity Measurement &amp;amp; Validation of Radiative Laws',
+          description: "Experimental validation of the inverse-square law and Lambert’s cosine law using Arduino sensing and MATLAB analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
