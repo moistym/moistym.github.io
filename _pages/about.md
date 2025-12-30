@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>[LinkedIn](https://www.linkedin.com/in/azhari5/). [GitGub](https://github.com/moistym).
+subtitle: <a href='#'>Aerospace Engineering, Edge AI, SSA.
 
 profile:
   align: right
