@@ -33,9 +33,9 @@ ninja.data = [{
           description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-navigating-enhanced-exploration-assistance-nexa",
+          title: 'Navigating Enhanced Exploration Assistance (NEXA)',
+          description: "Edge AI for autonomous drone security and real-time alerting",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
