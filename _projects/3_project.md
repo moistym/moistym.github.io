@@ -22,19 +22,19 @@ Two experimental configurations were conducted:
 
 Data was streamed over serial communication and post-processed in MATLAB.
 
-## Data Analysis & Modeling
+### Data Analysis & Modeling
 
-Measured data was fit against theoretical models:
+Measured light-intensity data was fit against the following theoretical models:
 
-- **Inverse-Square Law:**  
-  \[
-  I(r) = \frac{a}{r^2}
-  \]
+**Inverse-Square Law**
+$$
+I(r) = \frac{a}{r^2}
+$$
 
-- **Lambert’s Cosine Law:**  
-  \[
-  I(\alpha) = b \cos(\alpha) + c
-  \]
+**Lambert’s Cosine Law**
+$$
+I(\alpha) = b \cos(\alpha) + c
+$$
 
 Custom MATLAB scripts were developed to perform nonlinear curve fitting, compute residuals, and evaluate goodness of fit using the coefficient of determination (R²).
 
