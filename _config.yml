@@ -53,14 +53,6 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
-navbar_pages:
-  - name: about
-    permalink: /
-  - name: projects
-    permalink: /projects/
-  - name: cv
-    permalink: /cv/
-
 # Dimensions
 max_width: 930px
 
