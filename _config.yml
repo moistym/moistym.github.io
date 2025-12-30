@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Azhari Abbas # the website title (if blank, full name will be used instead)
+title: "" # the website title (if blank, full name will be used instead)
 first_name: Azhari
 middle_name: ""
 last_name: Abbas
@@ -28,7 +28,7 @@ back_to_top: true # set to false to disable the back to top button
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
+# repo color 
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
