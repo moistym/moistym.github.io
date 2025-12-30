@@ -27,4 +27,4 @@ Hello! My name is Azhari Abbas. I’m a senior Aerospace Engineering major at [E
 
 My interests sit at the intersection of space engineering and artificial intelligence.. My experience includes research roles and internships at XD Lab with [Dr. Di Wu](https://faculty.erau.edu/Di.Wu), [Embry-Riddle's Engineering Physics Propulsion Lab](https://eppl.us/), Mitsubishi Power Americas, Northrop Grumman, and [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
 
-Outside of engineering, I spend time studying personal finance and learning from history's greatest entrepreneurs.
+You can learn more about my experience on my [CV](/cv/) and explore my work on the [projects](/projects/) page. Outside of engineering, I spend time studying personal finance and learning from history's greatest entrepreneurs.
