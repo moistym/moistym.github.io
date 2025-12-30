@@ -7,19 +7,16 @@ subtitle: Aerospace Engineering, Edge AI, SSA.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-more_info: >
+  image_circular: true # crops the image to make it circular
+  more_info: |
     <p>
       <a href="https://www.linkedin.com/in/azhari5/" target="_blank" rel="noopener">
         <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
-      <br>
+      </a><br>
       <a href="https://github.com/moistym" target="_blank" rel="noopener">
         <i class="fab fa-github"></i> GitHub
-      </a>
-      <br>
-      <i class="fas fa-map-marker-alt"></i> Daytona Beach, FL
-      <br>
+      </a><br>
+      <i class="fas fa-map-marker-alt"></i> Daytona Beach, FL<br>
       <a href="mailto:azhari.abbas2@gmail.com">
         <i class="fas fa-envelope"></i> azhari.abbas2@gmail.com
       </a>
