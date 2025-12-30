@@ -8,8 +8,6 @@ category: work
 ---
 
 ## Overview
-Aug 2025 – Present
-
 OrbitFlex is a 3U CubeSat mission to support optical space situational awareness of objects in the geostationary belt. The mission collects multi-image datasets and produces a mini-catalog with line-of-sight measurements in right ascension and declination.
 
 ## Role
