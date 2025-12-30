@@ -28,9 +28,9 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-orbitflex-cubesat-team",
+          title: 'OrbitFlex CubeSat Team',
+          description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
