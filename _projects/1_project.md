@@ -1,81 +1,51 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: OrbitFlex CubeSat Team
+description: 3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.
+img: assets/img/orbitflex_cover.png
 importance: 1
 category: work
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+Aug 2025 – Present
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+OrbitFlex is a 3U CubeSat mission to support optical space situational awareness of objects in the geostationary belt. The mission collects multi-image datasets and produces a mini-catalog with line-of-sight measurements in right ascension and declination.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Role
+Environmental and Test Engineer
 
+## Responsibilities
+- Developed end-to-end verification and validation planning for the 3U spacecraft, aligned with NASA GEVS test philosophy and requirements.
+- Defined vibroacoustic and shock test approaches to validate structural integrity and functional performance.
+- Supported contamination control by applying ISO Class 8 cleanroom practices during assembly and test.
+- Implemented surface cleanliness controls aligned with MIL-STD-1246C.
+
+## Gallery
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/orbitflex_exploded.png" title="Exploded view with component identifiers" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/orbitflex_config.png" title="Deployed configuration" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/orbitflex_render.png" title="3U CubeSat render" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+## References
+1. NASA General Environmental Verification Standard (GEVS).  
+2. Link margin calculation reference: https://www.tutorialsweb.com/satcom/link-power-budget/calculation-of-link-margin.htm  
+3. Infinity Avionics LEO2MP camera: https://satsearch.co/products/infinity-avionics-leo2mp-engineering-camera  
+4. ISISPACE S-band antenna: https://www.isispace.nl/product/s-band-tmtc-antenna/  
+5. EnduroSat S-band transceiver: https://www.endurosat.com/products/s-band-transceiver/  
+6. AAC Clyde Space iADCS 200: https://www.aac-clyde.space/wp-content/uploads/2021/11/iADCS200.pdf  
+7. NASA GNSS receiver paper: https://ntrs.nasa.gov/api/citations/20230012191/downloads/NC3m-GNSS-Receiver-ION2023_paper-final.pdf  
+8. AAC Clyde Space GPS antenna: https://www.aac-clyde.space/wp-content/uploads/2021/11/ANT-GPS-2.pdf
