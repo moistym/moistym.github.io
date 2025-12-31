@@ -1,80 +1,72 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Mixture-Ratio Sensitivity of a Hydrogen–Oxygen Rocket Engine Using NASA CEA
+description: How Tc and Isp change with O/F for GH2/GO2 at 68 atm, restricted vs full equilibrium chemistry
+img:
+importance: 5
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+This project studied how **combustion chamber temperature (Tc)** and **specific impulse (Isp)** vary with **oxidizer-to-fuel ratio (O/F)** for a **gaseous hydrogen–oxygen** rocket engine using **NASA CEA (Chemical Equilibrium with Applications)**. The engine operated at **Pc = 68 atm** and expanded to **sea-level conditions**. Mixture ratios from **O/F = 2 to 10** were evaluated to identify performance trends and the mixture ratio that maximizes Isp.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Two chemical models were compared:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Case A (restricted products):** H₂O, H₂, O₂ only  
+- **Case B (full equilibrium):** all species active (CEA default equilibrium chemistry)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Method
+For each O/F value, NASA CEA was used to compute equilibrium products and performance metrics. The outputs of interest were:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Chamber temperature, Tc**
+- **Specific impulse, Isp** (sea-level expansion)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This comparison isolates how **chemistry model fidelity** influences predicted performance.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Key Results
+### Case A (restricted chemistry)
+The restricted product set suppressed both temperature and performance. The output was not physically realistic for combustion conditions:
 
-{% raw %}
+- **Tc fixed at ~298 K**
+- **Isp peak ~736 m/s**
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Case B (full equilibrium chemistry)
+Full equilibrium chemistry produced physically realistic rocket-combustion behavior:
 
-{% endraw %}
+- **Tc increased from ~2070 K at O/F = 2** to **~3670 K** at higher O/F
+- **Isp peaked near O/F ≈ 2** at **~1790 m/s (≈183 s)**
+
+This reflects a known trade-off: as the mixture becomes more oxidizer-rich, Tc rises but **average molecular weight increases**, which reduces exhaust velocity. The optimum occurs on the **fuel-rich side**, where lower molecular weight exhaust compensates for a slight temperature drop and increases jet momentum.
+
+## Performance Summary (from CEA outputs)
+| Model | Chemistry | Pc | Expansion | O/F range | Tc trend | Isp peak |
+|---|---|---:|---|---:|---|---|
+| Case A | Restricted (H₂O, H₂, O₂) | 68 atm | Sea level | 2–10 | ~298 K (non-physical) | ~736 m/s |
+| Case B | Full equilibrium (all species) | 68 atm | Sea level | 2–10 | ~2070 → ~3670 K | ~1790 m/s at O/F ≈ 2 |
+
+## Takeaways
+- Chemistry assumptions strongly affect predicted rocket performance.
+- Restricting products can produce misleading outputs for combustion modeling.
+- For GH2/GO2, the best Isp often occurs fuel-rich because lower molecular weight exhaust increases effective exhaust velocity.
+
+## Tools
+- **NASA CEA** for equilibrium chemistry and performance prediction  
+- Plotting and post-processing (MATLAB)
+
+## Documentation
+### Case A (restricted chemistry)
+<iframe 
+  src="/assets/pdf/Case_A.pdf"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
+
+### Case B (full equilibrium chemistry)
+<iframe 
+  src="/assets/pdf/Case_B.pdf"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
+- `assets/img/cea/caseA_vs_caseB_overlay.png`
+- `assets/img/cea/cover.jpg`
