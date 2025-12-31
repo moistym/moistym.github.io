@@ -28,6 +28,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-development-of-a-6-degrees-of-freedom-6dof-flight-dynamics-model-for-the-airbus-a320",
+          title: 'Development of a 6 Degrees of Freedom (6DOF) Flight Dynamics Model for the...',
+          description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
             },},{id: "projects-orbitflex-cubesat-team",
           title: 'OrbitFlex CubeSat Team',
           description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
