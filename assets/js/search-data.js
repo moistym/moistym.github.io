@@ -53,9 +53,9 @@ ninja.data = [{
           description: "How Tc and Isp change with O/F for GH2/GO2 at 68 atm, restricted vs full equilibrium chemistry",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-ai-driven-collision-avoidance-for-crowded-orbital-environments",
+          title: 'AI-Driven Collision Avoidance for Crowded Orbital Environments',
+          description: "Artificial intelligence methods for conjunction screening, uncertainty modeling, and autonomous maneuver planning in LEO",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
