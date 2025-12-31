@@ -16,6 +16,41 @@
     },
     "profiles": []
   },
+    "education": [
+    {
+      "institution": "Embry-Riddle Aeronautical University",
+      "area": "Aerospace Engineering (Astronautics and Spacecraft Design)",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-08-01",
+      "endDate": "2026-05-01",
+      "courses": [
+        "Minors: Computer Science and Business Administration",
+        "Kappa Alpha Psi Fraternity Inc.",
+        "National Society of Black Engineers (NSBE)"
+      ]
+    }
+  ],
+    "skills": [
+    {
+      "name": "Programming and Flight Software",
+      "keywords": ["Python", "MATLAB", "C", "C++", "CUDA", "Arduino", "ROS", "PX4", "YOLO"]
+    },
+    {
+      "name": "Simulation and Analysis",
+      "keywords": ["Simulink", "NASTRAN", "Ansys Fluent", "STK", "GMAT", "MES", "CPLM", "NASA GEVS"]
+    },
+    {
+      "name": "CAD",
+      "keywords": ["CATIA", "SolidWorks", "Inventor", "Siemens NX"]
+    }
+  ],
+  "certificates": [
+    { "name": "SOLIDWORKS Professional (CSWP)", "date": "2019-01-01", "issuer": "Dassault Systèmes" },
+    { "name": "Autodesk Professional Certification – Design and Drafting", "date": "2019-01-01", "issuer": "Autodesk" },
+    { "name": "Autodesk Inventor Professional Certification", "date": "2022-01-01", "issuer": "Autodesk" },
+    { "name": "Arduino Certification Program", "date": "2023-01-01", "issuer": "Arduino" },
+    { "name": "Northrop Grumman ASTAR", "date": "2025-01-01", "issuer": "Northrop Grumman" }
+  ],
   "work": [
     {
       "name": "Mitsubishi Power Americas Inc.",
@@ -158,39 +193,51 @@
       "endDate": "2023-10-01"
     }
   ],
-  "education": [
+  "awards": [
+    { "title": "ERAU Presidential Scholar", "date": "2025-01-01", "awarder": "Embry-Riddle Aeronautical University" },
+    { "title": "Fall 2024 Dean’s List", "date": "2025-01-01", "awarder": "Embry-Riddle Aeronautical University" },
+    { "title": "Spring 2025 Honor Roll", "date": "2025-05-01", "awarder": "Embry-Riddle Aeronautical University" },
+    { "title": "Summer 2025 Dean’s List", "date": "2025-08-01", "awarder": "Embry-Riddle Aeronautical University" },
+    { "title": "Fall 2025 Honor Roll", "date": "2025-12-01", "awarder": "Embry-Riddle Aeronautical University" },
+    { "title": "Jeffrey Randall Smith Memorial Scholar", "date": "2024-01-01", "awarder": "Scholarship Committee" },
+    { "title": "City of Coral Springs MLK Scholar", "date": "2024-01-01", "awarder": "City of Coral Springs" },
+    { "title": "Summer 2024 Dean’s List", "date": "2024-08-01", "awarder": "Embry-Riddle Aeronautical University" }
+  ],
+  "volunteer": [
     {
-      "institution": "Embry-Riddle Aeronautical University",
-      "area": "Aerospace Engineering (Astronautics and Spacecraft Design)",
-      "studyType": "Bachelor of Science",
-      "startDate": "2022-08-01",
-      "endDate": "2026-05-01",
-      "courses": [
-        "Minor: Computer Science",
-        "Minor: Business Administration"
+      "organization": "School Board of Broward County",
+      "position": "Technology Advisory Committee Member",
+      "url": "",
+      "startDate": "2021-08-01",
+      "endDate": "Present",
+      "summary": "Serve on a district-level advisory committee supporting technology integration, STEM initiatives, and educational innovation.",
+      "highlights": [
+        "Provide student and community perspectives on emerging technologies, cybersecurity awareness, and digital equity in K–12 education."
+      ]
+    },
+    {
+      "organization": "J.P. Taravella High School Special Olympics",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "2022-06-01",
+      "summary": "Supported Special Olympics events and student-athlete activities.",
+      "highlights": [
+        "Assisted coaches and staff to ensure inclusive, safe, and engaging athletic experiences.",
+        "Coordinated events and provided on-site assistance."
+      ]
+    },
+    {
+      "organization": "City of Tamarac",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2017-08-01",
+      "endDate": "2019-07-01",
+      "summary": "Participated in community service initiatives and city-sponsored volunteer programs.",
+      "highlights": [
+        "Supported local events and civic engagement efforts benefiting residents and public spaces."
       ]
     }
-  ],
-  "skills": [
-    {
-      "name": "Programming and Flight Software",
-      "keywords": ["Python", "MATLAB", "C", "C++", "CUDA", "Arduino", "ROS", "PX4", "YOLO"]
-    },
-    {
-      "name": "Simulation and Analysis",
-      "keywords": ["Simulink", "NASTRAN", "Ansys Fluent", "STK", "GMAT", "MES", "CPLM", "NASA GEVS"]
-    },
-    {
-      "name": "CAD",
-      "keywords": ["CATIA", "SolidWorks", "Inventor", "Siemens NX"]
-    }
-  ],
-  "certificates": [
-    { "name": "SOLIDWORKS Professional (CSWP)", "date": "2019-01-01", "issuer": "Dassault Systèmes" },
-    { "name": "Autodesk Professional Certification – Design and Drafting", "date": "2019-01-01", "issuer": "Autodesk" },
-    { "name": "Autodesk Inventor Professional Certification", "date": "2022-01-01", "issuer": "Autodesk" },
-    { "name": "Arduino Certification Program", "date": "2023-01-01", "issuer": "Arduino" },
-    { "name": "Northrop Grumman ASTAR", "date": "2025-01-01", "issuer": "Northrop Grumman" }
   ],
   "languages": [
     { "language": "English", "fluency": "Native/Fluent" },
