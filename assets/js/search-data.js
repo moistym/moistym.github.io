@@ -58,9 +58,9 @@ ninja.data = [{
           description: "Artificial intelligence methods for conjunction screening, uncertainty modeling, and autonomous maneuver planning in LEO",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-experimental-boundary-layer-analysis-using-hot-wire-anemometry",
+          title: 'Experimental Boundary Layer Analysis Using Hot-Wire Anemometry',
+          description: "Turbulent flat-plate boundary layer characterization using hot-wire measurements, FFT analysis, and comparison with classical theory",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
