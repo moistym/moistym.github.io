@@ -4,7 +4,6 @@ title: Attitude Dynamics and Control of a Rigid Spacecraft in LEO
 description: Quaternion simulation, gravity-gradient torque, and PD stabilization in MATLAB.
 img: assets/img/attitude_pd_cover.jpg
 importance: 4
-category: work
 ---
 
 ## Overview
