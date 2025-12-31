@@ -7,10 +7,10 @@ importance: 2
 ---
 
 ## Role
-Principal Investigator, Engineering Physics Propulsion Laboratory
+Principal Investigator, [Engineering Physics Propulsion Laboratory](https://eppl.us/)
 
 ## Overview
-NEXA, Navigating Enhanced Exploration Assistance, integrates AI with drone platforms for residential security and property monitoring. The system targets autonomous piloting, threat detection, and real-time alerting with privacy-preserving, on-device perception and decision-making.
+NEXA, [Navigating Enhanced Exploration Assistance](https://eppl.us/projects/project-10/), integrates AI with drone platforms for residential security and property monitoring. The system targets autonomous piloting, threat detection, and real-time alerting with privacy-preserving, on-device perception and decision-making.
 
 ## Technical Approach
 - Challenging-data learning for noise, occlusions, illumination and weather changes, motion blur, class imbalance, missing labels, and privacy constraints
@@ -28,3 +28,10 @@ NEXA, Navigating Enhanced Exploration Assistance, integrates AI with drone platf
 - Nascimento, Renato G., et al., *Quadcopter Control Optimization through Machine Learning*, AIAA SciTech Forum, 2020.
 - https://www.nature.com/articles/s41598-021-91325-w
 - https://www.spiceworks.com/tech/artificial-intelligence/articles/how-does-ai-learn-through-ml-algorithms/
+
+## Spring 2025 ERAU Discovery Day Poster
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/nexa_poster.png" title="Discovery Day 2025" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
