@@ -25,10 +25,10 @@ The force balance was calibrated prior to testing to ensure accurate lift and dr
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS1.jpg" title="3-D model of the Space Shuttle Orbiter" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/SS1.jpg" title="3-D model of the Space Shuttle Orbiter" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS2.jpg" title="Calibration of drag portion of the force balance" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/SS2.jpg" title="Calibration of drag portion of the force balance" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -40,7 +40,7 @@ The model was incrementally rotated to prescribed angles of attack. At each AoA,
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS3.jpg" title="Space Shuttle model at various angles of attack" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/SS3.jpg" title="Space Shuttle model at various angles of attack" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -52,7 +52,7 @@ Lift and drag coefficients were computed from the measured forces and analyzed a
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS4.jpg" title="Drag coefficient versus angle of attack" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/SS4.jpg" title="Drag coefficient versus angle of attack" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
