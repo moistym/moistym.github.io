@@ -4,7 +4,6 @@ title: Navigating Enhanced Exploration Assistance (NEXA)
 description: Edge AI for autonomous drone security and real-time alerting
 img: assets/img/nexa_poster.png
 importance: 2
-category: work
 ---
 
 ## Role
