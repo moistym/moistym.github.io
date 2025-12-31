@@ -4,7 +4,7 @@ permalink: /cv/
 title: curriculum vitae
 nav: true
 nav_order: 5
-cv_pdf: azhari_abbas.pdf # you can also use external links here
+cv_pdf:
 description:
 toc:
   sidebar: left
