@@ -61,7 +61,7 @@ This reflects a known trade-off: as the mixture becomes more oxidizer-rich, Tc r
   height="600px"
   style="border: none;">
 </iframe>
-
+<hr>
 ### Case B (full equilibrium chemistry)
 <iframe 
   src="/assets/pdf/Case_B.pdf"
@@ -69,5 +69,3 @@ This reflects a known trade-off: as the mixture becomes more oxidizer-rich, Tc r
   height="600px"
   style="border: none;">
 </iframe>
-- `assets/img/cea/caseA_vs_caseB_overlay.png`
-- `assets/img/cea/cover.jpg`
