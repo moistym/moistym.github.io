@@ -1,80 +1,97 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: Wind Tunnel Aerodynamic Testing of a Space Shuttle Orbiter Scale Model
+description: Low-speed wind tunnel testing of a 1:286 scale Space Shuttle Orbiter with lift and drag measurements across angle of attack
+img: assets/img/SS1.jpg
+importance: 9
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+This project involved the **design, execution, and analysis of a low-speed wind tunnel experiment** to evaluate the aerodynamic performance of a **1:286 scale Space Shuttle Orbiter**. The objective was to quantify how **angle of attack (AoA)** affects lift, drag, and aerodynamic efficiency, and to compare experimental trends with **published NASA flight and sub-scale data**.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The model was tested over an AoA range from **−10° to 30°** at a freestream velocity of **20 m/s**, representative of low-speed approach and landing conditions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Experimental Setup
+A scaled three-dimensional model of the Space Shuttle Orbiter was fabricated and mounted in a low-speed wind tunnel using a calibrated force balance.
+
+Key setup parameters:
+- **Scale:** 1:286  
+- **Freestream velocity:** 20 m/s  
+- **Angle of attack range:** −10° to 30°  
+- **Measured quantities:** lift force, drag force  
+- **Data processing:** MATLAB post-processing and uncertainty analysis  
+
+The force balance was calibrated prior to testing to ensure accurate lift and drag measurements.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS1.jpg" title="3-D model of the Space Shuttle Orbiter" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS2.jpg" title="Calibration of drag portion of the force balance" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  Three-dimensional CAD model of the 1:286 scale Space Shuttle Orbiter and experimental calibration of the force balance prior to testing.
 </div>
+
+## Test Procedure
+The model was incrementally rotated to prescribed angles of attack. At each AoA, steady-state force measurements were recorded and converted to aerodynamic coefficients using standard nondimensionalization.
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS3.jpg" title="Space Shuttle model at various angles of attack" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  Space Shuttle model mounted in the wind tunnel at angles of attack of −10°, 0°, 10°, 20°, and 30°.
+</div>
 
-{% endraw %}
+## Results and Analysis
+Lift and drag coefficients were computed from the measured forces and analyzed as functions of angle of attack.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/shuttle/SS4.jpg" title="Drag coefficient versus angle of attack" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Drag coefficient as a function of angle of attack, including experimental uncertainty. Drag increases rapidly with AoA, with higher drag observed at negative angles due to the orbiter’s lifting-body geometry.
+</div>
+
+### Key Findings
+- **Maximum lift coefficient:**  
+  - \( C_L \approx 1.01 \) at **20°**, followed by stall behavior
+- **Maximum lift-to-drag ratio:**  
+  - \( L/D \approx 1.88 \) at **10°**
+- **Lift behavior:**  
+  - Approximately linear at low angles of attack
+- **Drag behavior:**  
+  - Rapid growth with increasing AoA, consistent with bluff-body and lifting-body aerodynamics
+
+Although the experimental Reynolds number (**~1×10⁵**) was significantly lower than full-scale Shuttle flight conditions, the **qualitative aerodynamic trends matched NASA sub-scale test data**.
+
+## Comparison to Flight Data
+Compared to flight conditions:
+- Drag was higher due to low Reynolds number effects
+- Maximum \( L/D \) was lower than flight values
+- The AoA corresponding to peak efficiency aligned with Shuttle approach and landing data (≈10–12°)
+
+Despite scaling limitations, the experiment successfully reproduced the expected aerodynamic behavior of the Space Shuttle Orbiter.
+
+## Takeaways
+This project demonstrated the full experimental aerodynamics workflow:
+- Model scaling and fabrication
+- Force balance calibration
+- Wind tunnel testing
+- Data reduction and uncertainty analysis
+- Comparison with real flight data
+
+The results confirmed that even at reduced Reynolds numbers, **wind tunnel testing captures the dominant aerodynamic trends** governing Space Shuttle approach and landing performance.
+
+## Tools and Techniques
+- Low-speed wind tunnel testing
+- Force balance calibration
+- Aerodynamic coefficient calculation
+- MATLAB data analysis and plotting
+- Experimental uncertainty analysis
