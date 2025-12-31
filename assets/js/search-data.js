@@ -63,9 +63,9 @@ ninja.data = [{
           description: "Turbulent flat-plate boundary layer characterization using hot-wire measurements, FFT analysis, and comparison with classical theory",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-finite-element-structural-analysis-using-simcenter-femap-with-nastran",
+          title: 'Finite Element Structural Analysis Using Simcenter Femap with NASTRAN',
+          description: "Static structural analysis of beam and rod elements with validation against analytical solutions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
