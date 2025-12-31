@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Azhari Abbas",
-    "label": "Aerospace Engineering Student",
+    "label": "Aerospace Engineer",
     "image": "",
     "email": "azhari.abbas2@gmail.com",
     "phone": "+1 (954) 882-7461",
     "url": "",
-    "summary": "Aerospace Engineering student at Embry-Riddle Aeronautical University focusing on Astronautics and Spacecraft Design. Experienced in test and evaluation engineering, edge AI for autonomous systems, and spacecraft environmental testing with an active U.S. DoD Secret clearance.",
+    "summary": "Experienced in test and evaluation engineering, edge AI for autonomous systems, and spacecraft environmental testing with an active U.S. DoD Secret clearance.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -199,7 +199,7 @@
     { "title": "Spring 2025 Honor Roll", "date": "2025-05-01", "awarder": "Embry-Riddle Aeronautical University" },
     { "title": "Summer 2025 Dean’s List", "date": "2025-08-01", "awarder": "Embry-Riddle Aeronautical University" },
     { "title": "Fall 2025 Honor Roll", "date": "2025-12-01", "awarder": "Embry-Riddle Aeronautical University" },
-    { "title": "Jeffrey Randall Smith Memorial Scholar", "date": "2024-01-01", "awarder": "Scholarship Committee" },
+    { "title": "Jeffrey Randall Smith Memorial Scholar", "date": "2022-08-01", "awarder": "Scholarship Committee" },
     { "title": "City of Coral Springs MLK Scholar", "date": "2024-01-01", "awarder": "City of Coral Springs" },
     { "title": "Summer 2024 Dean’s List", "date": "2024-08-01", "awarder": "Embry-Riddle Aeronautical University" }
   ],
