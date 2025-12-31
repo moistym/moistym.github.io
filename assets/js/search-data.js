@@ -48,9 +48,9 @@ ninja.data = [{
           description: "Quaternion simulation, gravity-gradient torque, and PD stabilization in MATLAB.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-mixture-ratio-sensitivity-of-a-hydrogen-oxygen-rocket-engine-using-nasa-cea",
+          title: 'Mixture-Ratio Sensitivity of a Hydrogen–Oxygen Rocket Engine Using NASA CEA',
+          description: "How Tc and Isp change with O/F for GH2/GO2 at 68 atm, restricted vs full equilibrium chemistry",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
