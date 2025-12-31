@@ -6,6 +6,9 @@ img: assets/img/attitude_pd_cover.jpg
 importance: 4
 ---
 
+## Role
+Project Lead
+
 ## Overview
 Quaternion-based MATLAB simulation of rigid-body attitude dynamics in a 400 km circular orbit, including gravity-gradient disturbance torque and a diagonal quaternion–rate PD controller.
 
