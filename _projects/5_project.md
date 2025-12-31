@@ -38,10 +38,11 @@ Full equilibrium chemistry produced physically realistic rocket-combustion behav
 This reflects a known trade-off: as the mixture becomes more oxidizer-rich, Tc rises but **average molecular weight increases**, which reduces exhaust velocity. The optimum occurs on the **fuel-rich side**, where lower molecular weight exhaust compensates for a slight temperature drop and increases jet momentum.
 
 ## Performance Summary (from CEA outputs)
-| Model | Chemistry | Pc | Expansion | O/F range | Tc trend | Isp peak |
-|---|---|---:|---|---:|---|---|
-| Case A | Restricted (H₂O, H₂, O₂) | 68 atm | Sea level | 2–10 | ~298 K (non-physical) | ~736 m/s |
-| Case B | Full equilibrium (all species) | 68 atm | Sea level | 2–10 | ~2070 → ~3670 K | ~1790 m/s at O/F ≈ 2 |
+
+| Model  | Chemistry                         | Pc     | Expansion | O/F range | Tc trend                  | Isp peak                 |
+|:------|:----------------------------------|------:|:---------|---------:|:--------------------------|:-------------------------|
+| Case A | Restricted (H₂O, H₂, O₂)          | 68 atm | Sea level | 2–10     | ~298 K (non-physical)     | ~736 m/s                 |
+| Case B | Full equilibrium (all species)    | 68 atm | Sea level | 2–10     | ~2070 → ~3670 K           | ~1790 m/s at O/F ≈ 2     |
 
 ## Takeaways
 - Chemistry assumptions strongly affect predicted rocket performance.
