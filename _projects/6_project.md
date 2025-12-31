@@ -45,6 +45,8 @@ Future work should focus on the following.
 [6] Y. Li et al., “Graph Neural Networks for Orbital Conjunction Prediction,” arXiv:2303.01045 [cs.LG], 2023.  
 [7] J. Bourriez et al., “Deep Reinforcement Learning for Autonomous CAM Planning,” *Acta Astronautica*, vol. 207, pp. 77–89, 2023.  
 [8] D. Solomon and T. Păduraru, “Optimized Low-Thrust Collision Avoidance with Deep RL,” *IEEE Aerospace Conference*, 2025.
+[9] A. Choumos et al., “AI Applications in Space Traffic Management: A Review,” *Journal of Space Safety Engineering*, vol. 11, no. 1, pp. 1–15, 2024.  
+[10] H. D. Curtis, *Orbital Mechanics for Engineering Students*, Butterworth-Heinemann, 2020.
 
 ## Documentation
 <iframe 
@@ -53,5 +55,3 @@ Future work should focus on the following.
   height="600px"
   style="border: none;">
 </iframe>
-[9] A. Choumos et al., “AI Applications in Space Traffic Management: A Review,” *Journal of Space Safety Engineering*, vol. 11, no. 1, pp. 1–15, 2024.  
-[10] H. D. Curtis, *Orbital Mechanics for Engineering Students*, Butterworth-Heinemann, 2020.
