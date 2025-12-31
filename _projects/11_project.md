@@ -2,6 +2,7 @@
 layout: page
 title: EUREKA Rocket Launch Team
 description: Programming lead for avionics data logging and GPS-based tracking on a student-built sounding rocket
+img: assets/img/laserhawk.jpg
 importance: 11
 ---
 
