@@ -68,9 +68,9 @@ ninja.data = [{
           description: "Static structural analysis of beam and rod elements with validation against analytical solutions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-wind-tunnel-aerodynamic-testing-of-a-space-shuttle-orbiter-scale-model",
+          title: 'Wind Tunnel Aerodynamic Testing of a Space Shuttle Orbiter Scale Model',
+          description: "Low-speed wind tunnel testing of a 1:286 scale Space Shuttle Orbiter with lift and drag measurements across angle of attack",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
