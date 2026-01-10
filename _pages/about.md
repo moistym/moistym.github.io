@@ -6,7 +6,7 @@ subtitle: Aerospace Engineering, Edge AI, SSA.
 
 profile:
   align: right
-  image: pfp3.jpg
+  image: headshot.png
   image_circular: true # crops the image to make it circular
   more_info: |
     <p>
