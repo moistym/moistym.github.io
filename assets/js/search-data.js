@@ -38,6 +38,11 @@ ninja.data = [{
           description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
+            },},{id: "projects-esa-spark-2026-spacecraft-detection-and-segmentation",
+          title: 'ESA SPARK 2026 – Spacecraft Detection and Segmentation',
+          description: "Deep learning pipeline for spacecraft classification and semantic segmentation in synthetic orbital imagery",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{id: "projects-orbitflex-cubesat-team",
           title: 'OrbitFlex CubeSat Team',
           description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
