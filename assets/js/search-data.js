@@ -33,9 +33,9 @@ ninja.data = [{
           description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-eureka-rocket-launch-team",
-          title: 'EUREKA Rocket Launch Team',
-          description: "Programming lead for avionics data logging and GPS-based tracking on a student-built sounding rocket",
+            },},{id: "projects-development-of-a-6-degrees-of-freedom-6dof-flight-dynamics-model-for-the-airbus-a320",
+          title: 'Development of a 6 Degrees of Freedom (6DOF) Flight Dynamics Model for the...',
+          description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
             },},{id: "projects-orbitflex-cubesat-team",
