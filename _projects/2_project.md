@@ -2,7 +2,7 @@
 layout: page
 title: Navigating Enhanced Exploration Assistance (NEXA)
 description: Edge AI for autonomous drone security and real-time alerting
-img: assets/img/nexa_poster.png
+img: assets/img/IMG_1429.jpeg
 importance: 2
 ---
 
@@ -28,6 +28,13 @@ NEXA, [Navigating Enhanced Exploration Assistance](https://eppl.us/projects/proj
 - Nascimento, Renato G., et al., *Quadcopter Control Optimization through Machine Learning*, AIAA SciTech Forum, 2020.
 - https://www.nature.com/articles/s41598-021-91325-w
 - https://www.spiceworks.com/tech/artificial-intelligence/articles/how-does-ai-learn-through-ml-algorithms/
+
+## NEXA Drone
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/IMG_1429.jpeg" title="NEXA Drone" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 ## Spring 2025 ERAU Discovery Day Poster
 <div class="row">
