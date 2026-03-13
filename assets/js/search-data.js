@@ -33,14 +33,14 @@ ninja.data = [{
           description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-development-of-a-6-degrees-of-freedom-6dof-flight-dynamics-model-for-the-airbus-a320",
-          title: 'Development of a 6 Degrees of Freedom (6DOF) Flight Dynamics Model for the...',
-          description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
+            },},{id: "projects-eureka-rocket-launch-team-laserhawk-competition-rocket",
+          title: 'EUREKA Rocket Launch Team – LASERHAWK Competition Rocket',
+          description: "Programming lead for avionics and data logging systems on a 5-foot competition rocket that won 1st place at the 2024 NSBE National Convention Boeing Rocket Launch Competition",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-development-of-a-6-degrees-of-freedom-6dof-flight-dynamics-model-for-the-airbus-a320",
-          title: 'Development of a 6 Degrees of Freedom (6DOF) Flight Dynamics Model for the...',
-          description: "MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion",
+            },},{id: "projects-esa-spark-2026-spacecraft-detection-and-segmentation",
+          title: 'ESA SPARK 2026 – Spacecraft Detection and Segmentation',
+          description: "Deep learning pipeline for spacecraft classification and semantic segmentation in synthetic orbital imagery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
             },},{id: "projects-orbitflex-cubesat-team",
