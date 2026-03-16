@@ -43,9 +43,9 @@ ninja.data = [{
           description: "Deep learning pipeline for spacecraft classification and semantic segmentation in synthetic orbital imagery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
-            },},{id: "projects-esa-spark-2026-spacecraft-detection-and-segmentation",
-          title: 'ESA SPARK 2026 – Spacecraft Detection and Segmentation',
-          description: "Deep learning pipeline for spacecraft classification and semantic segmentation in synthetic orbital imagery",
+            },},{id: "projects-space-debris-detection-for-orbital-scene-awareness",
+          title: 'Space Debris Detection for Orbital Scene Awareness',
+          description: "YOLOv8-based object detection model for identifying debris and satellites in synthetic orbital imagery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
             },},{id: "projects-orbitflex-cubesat-team",
