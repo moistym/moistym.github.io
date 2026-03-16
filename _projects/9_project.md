@@ -3,7 +3,7 @@ layout: page
 title: Wind Tunnel Aerodynamic Testing of a Space Shuttle Orbiter Scale Model
 description: Low-speed wind tunnel testing of a 1:286 scale Space Shuttle Orbiter with lift and drag measurements across angle of attack
 img: assets/img/SS1.jpg
-importance: 9
+importance: 13
 ---
 
 ## Overview
