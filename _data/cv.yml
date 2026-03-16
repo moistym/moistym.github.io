@@ -93,6 +93,15 @@
         - Compared numerical displacements, stresses, and reaction forces with analytical hand calculations.
         - Verified model accuracy through percentage error analysis and load-path interpretation.
 
+        - title: Space Debris Detection for Orbital Scene Awareness
+      institution: Embry-Riddle Aeronautical University
+      year: Mar 2025 – Apr 2025
+      description:
+        - Developed a YOLOv8 object detection model to identify space debris and satellites in orbital imagery.
+        - Trained on 6.4k images with 42k annotations to detect objects across diverse orbital scenes.
+        - Implemented the pipeline in Python using Ultralytics YOLOv8 for localization and classification.
+        - Achieved reliable detection of small debris and large spacecraft across varying scales.
+
     - title: Wind Tunnel Aerodynamic Testing of a Space Shuttle Orbiter Scale Model
       institution: Embry-Riddle Aeronautical University
       year: Jan 2025 – Apr 2025
