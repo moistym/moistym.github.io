@@ -1,138 +1,147 @@
 ---
 layout: page
-title: ESA SPARK 2026 – Spacecraft Detection and Segmentation
-description: Deep learning pipeline for spacecraft classification and semantic segmentation in synthetic orbital imagery
-img: assets/img/spark_stream1_preview.png
-importance: 12
+title: Space Debris Detection for Orbital Scene Awareness
+description: YOLOv8-based object detection model for identifying debris and satellites in synthetic orbital imagery
+img: assets/img/9.jpg
+importance: 13
 ---
 
 ## Overview
 
-This project was completed as part of the **European Space Agency (ESA) SPARK 2026 AI Challenge – Stream 1**, which focuses on **spacecraft detection and semantic segmentation** from synthetic orbital imagery.
+This project focused on the development of a **space debris detection model** for **orbital scene understanding and space situational awareness (SSA)** applications.
 
-The objective of the competition is to develop a machine learning model capable of:
+The objective was to train a computer vision model capable of detecting two object classes in synthetic space imagery:
 
-- **Classifying spacecraft type**
-- **Detecting spacecraft location via bounding boxes**
-- **Segmenting spacecraft body and solar panels**
+- **Debris**
+- **Satellite**
 
-These tasks must be solved simultaneously while maintaining low computational cost, since the challenge evaluates models on a **combined metric including accuracy, FLOPs, and parameter count**.
+This type of detection problem is important for future applications in:
 
-To address this problem, I developed a **multi-task computer vision pipeline** trained on thousands of simulated space scenes containing spacecraft in diverse orientations, lighting conditions, and backgrounds.
+- **Debris tracking**
+- **Space traffic monitoring**
+- **Autonomous spacecraft perception**
+- **On-orbit inspection and servicing**
+- **Collision risk awareness**
 
-The final model placed **28th out of 467 total submissions (top 5%)** on the competition leaderboard.
+To address this problem, I trained a **YOLOv8-based object detection model** on thousands of labeled orbital images containing debris fragments and spacecraft under a wide range of viewing conditions.
 
 ## Dataset and Scene Complexity
 
-The dataset contains **synthetic orbital imagery** of several spacecraft types rendered under a wide range of viewing conditions. Scenes include:
+The model was trained on a synthetic orbital imagery dataset containing:
 
-- Variable spacecraft orientation
-- Earth limb and planetary backgrounds
-- Deep-space star fields
-- Sun glare and lens flare
-- Partial occlusions and extreme lighting
+- **6,479 total images**
+- **42,686 total annotations**
+- **2 object classes**
+- **6.6 annotations per image on average**
 
-Each image includes annotations for:
+Class distribution:
 
-- **Class label**
-- **Bounding box**
-- **Body segmentation mask**
-- **Solar panel segmentation mask**
+- **Debris:** 36,808 annotations
+- **Satellite:** 5,878 annotations
+
+The dataset was split into:
+
+- **Train:** 4,701 images
+- **Validation:** 1,181 images
+- **Test:** 597 images
+
+Scenes included a range of challenging orbital conditions, including:
+
+- **Earth limb backgrounds**
+- **Planetary views and cloud cover**
+- **Deep-space star fields**
+- **Small objects against dark backgrounds**
+- **Large variation in object scale**
+- **Cluttered scenes containing both spacecraft and multiple debris fragments**
+
+All images were resized to **832 × 832** during preprocessing.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/spark_stream1_preview.png" title="Sample spacecraft detection outputs" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/9.jpg" title="Example debris and satellite detections" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-Examples of spacecraft detection results. Red boxes indicate predicted bounding boxes and spacecraft labels across several orbital scenes.
+Example inference results from the trained model. Blue boxes indicate detected debris objects, while cyan boxes indicate detected satellites.
 </div>
 
 ## Model Architecture
 
-The solution was implemented using a **deep convolutional neural network trained for multi-task learning**. The model predicts spacecraft class, bounding box location, and segmentation masks in a single forward pass.
+The detection pipeline was implemented using **YOLOv8**, a one-stage deep learning architecture designed for fast and accurate object detection.
 
-The pipeline includes:
+The trained model performs:
 
-- Backbone feature extractor for spatial feature learning
-- Detection head for bounding box regression and classification
-- Segmentation heads for spacecraft body and solar panels
+- **Object localization** through bounding box prediction
+- **Class prediction** for debris and satellites
+- **Confidence scoring** for each detected object
 
-Training was performed using **GPU acceleration on Kaggle using a P100 GPU**, allowing efficient experimentation with architecture and hyperparameters.
+This approach is well suited for orbital detection tasks because it can identify small objects efficiently while maintaining strong performance across visually different scene types.
 
-## Segmentation Output
+Based on the saved training weights, the final detector was built on a **YOLOv8m** backbone and trained using an image size of **832 pixels**.
 
-In addition to detection, the model predicts detailed segmentation masks that distinguish between **spacecraft body structures and solar panels**.
+## Inference Results
+
+The trained model produced strong qualitative results across several scene types, including:
+
+- **Dense debris fields near Earth**
+- **Single satellite detections over planetary backgrounds**
+- **Deep-space scenes with sparse visual features**
+- **Mixed scenes containing both spacecraft and debris**
+
+The model was able to detect both large spacecraft and smaller debris-like targets in the same frame, demonstrating useful behavior across a wide range of scales and backgrounds.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/spark_stream1_2.png" title="Segmentation predictions for spacecraft components" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/space_debris_examples.png" title="Selected model outputs across multiple orbital scenes" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-Predicted segmentation masks for spacecraft components. Red overlays represent predicted spacecraft structures used for evaluation in the challenge.
+Selected detection outputs across different orbital scenarios, including Earth-limb views, star-field backgrounds, and cluttered multi-object scenes.
 </div>
-
-## Validation Performance
-
-During validation, the model achieved strong performance across the three primary evaluation tasks:
-
-- **Classification Accuracy:** 93.98%  
-- **Bounding Box IoU:** 0.927  
-- **Body Segmentation IoU:** 0.497  
-- **Solar Panel Segmentation IoU:** 0.021  
-
-These results produced a **top 5% leaderboard finish (28 / 467 submissions)** in the ESA SPARK 2026 Stream-1 challenge.
-
-The bounding box performance demonstrates reliable spacecraft localization across varying scene conditions. Segmentation performance shows clear body identification but remains challenging for thin solar panel structures, which often occupy only a small fraction of the image.
 
 ## Key Capabilities
 
-- Multi-task spacecraft **classification, detection, and segmentation**
-- Robust detection across **complex orbital backgrounds**
-- Training on **synthetic space environment datasets**
-- GPU-accelerated training using **Kaggle P100 hardware**
-- Model design optimized for **accuracy vs computational cost tradeoff**
+- Detection of **debris and satellites** in orbital imagery
+- Robust behavior across **Earth-background and deep-space scenes**
+- Detection in both **single-object** and **multi-object cluttered scenes**
+- Strong qualitative performance on **small object localization**
+- Practical use of **deep learning for SSA-related perception tasks**
 
 ## Challenges
 
-Several factors make this task particularly difficult:
+Several factors make orbital debris detection difficult:
 
-- **Extreme scale variation** between spacecraft and scene background
-- **Thin solar panel structures** that are difficult for segmentation models to capture
-- **Lighting variation and sun glare**
-- **Spacecraft orientation changes** across all three axes
+- **Small target size** relative to the full image
+- **Large scale variation** between scenes and objects
+- **Low-contrast targets** against dark backgrounds
+- **Cluttered scenes** with many nearby objects
+- **Changing viewpoint and orientation** of spacecraft
+- **Visually complex Earth backgrounds** that can distract detectors
 
-These conditions require models to learn strong spatial and geometric features while remaining computationally efficient.
+These conditions require the model to learn both fine local features and broad scene context.
 
 ## Future Work
 
-Potential improvements to this system include:
+Potential next steps for this project include:
 
-- Higher-resolution segmentation heads for thin structures
-- Attention mechanisms for panel detection
-- Domain adaptation between synthetic and real imagery
-- Edge deployment optimization for onboard spacecraft perception systems
+- Quantitative evaluation using full validation metrics such as **precision, recall, and mAP**
+- Threshold tuning to reduce over-detection in dense debris scenes
+- Class balancing improvements for the less frequent satellite class
+- Domain adaptation from synthetic imagery to more realistic or flight-like imagery
+- Deployment optimization for low-SWaP onboard vision systems
 
 ## Takeaways
 
-This project demonstrates how modern computer vision techniques can be applied to **space situational awareness and autonomous spacecraft perception**.
+This project demonstrates how modern object detection methods can be applied to **space-domain perception problems**, especially in the context of **space debris monitoring and orbital scene awareness**.
 
-Accurate spacecraft detection and segmentation are key capabilities for:
-
-- On-orbit inspection
-- Autonomous rendezvous and proximity operations
-- Space traffic monitoring
-- Satellite servicing and debris tracking
-
-The work highlights both the promise and the challenges of deploying machine learning models in **space-domain applications with limited compute resources**.
+Reliable detection of debris and spacecraft is a foundational capability for future autonomous space systems. It supports safer operations in increasingly congested orbital environments and helps enable more advanced functions such as inspection, rendezvous support, and traffic awareness.
 
 ## Tools and Techniques
 
 - Python
-- PyTorch
-- Deep learning for computer vision
-- Semantic segmentation
+- Ultralytics YOLOv8
 - Object detection
-- GPU training (Kaggle P100)
+- Deep learning for computer vision
 - Synthetic dataset training
+- Orbital scene analysis
+- Space situational awareness applications
