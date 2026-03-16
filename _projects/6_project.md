@@ -3,7 +3,7 @@ layout: page
 title: AI-Driven Collision Avoidance for Crowded Orbital Environments
 description: Artificial intelligence methods for conjunction screening, uncertainty modeling, and autonomous maneuver planning in LEO
 img: assets/img/ai_collision_cover.jpg
-importance: 6
+importance: 10
 ---
 
 ## Background
