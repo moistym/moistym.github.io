@@ -3,7 +3,7 @@ layout: page
 title: EUREKA Rocket Launch Team – LASERHAWK Competition Rocket
 description: Programming lead for avionics and data logging systems on a 5-foot competition rocket that won 1st place at the 2024 NSBE National Convention Boeing Rocket Launch Competition
 img: assets/img/laserhawk.jpg
-importance: 11
+importance: 4
 ---
 
 ## Overview
