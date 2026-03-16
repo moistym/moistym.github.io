@@ -3,7 +3,7 @@ layout: page
 title: Light Intensity Measurement & Validation of Radiative Laws
 description: Experimental validation of the inverse-square law and Lambert’s cosine law using Arduino sensing and MATLAB analysis.
 img: assets/img/arduino_ldr_cover.jpg
-importance: 3
+importance: 11
 ---
 
 ## Overview
