@@ -3,7 +3,7 @@ layout: page
 title: ESA SPARK 2026 – Spacecraft Detection and Segmentation
 description: Deep learning pipeline for spacecraft classification and semantic segmentation in synthetic orbital imagery
 img: assets/img/spark_stream1_preview.png
-importance: 12
+importance: 5
 ---
 
 ## Overview
