@@ -143,6 +143,16 @@
       "endDate": "2025-04-01"
     },
     {
+      "name": "Space Debris Detection for Orbital Scene Awareness",
+      "summary": "Developed a YOLOv8 object detection model to identify space debris and satellites in orbital imagery.",
+      "highlights": [
+        "Trained on 6.4k images with 42k annotations across diverse orbital scenes.",
+        "Achieved reliable detection of small debris and large spacecraft across varying scales."
+      ],
+      "startDate": "2025-03-01",
+      "endDate": "2025-04-01"
+    },
+    {
       "name": "Experimental Boundary Layer Analysis Using Hot-Wire Anemometry",
       "summary": "Characterized a turbulent flat-plate boundary layer using hot-wire anemometry and pitot-static measurements.",
       "highlights": [
