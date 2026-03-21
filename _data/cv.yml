@@ -10,13 +10,16 @@
     - name: Languages
       value: English, Arabic, Spanish (Classsroom Study)
 
-- title: Bachelor of Science in Aerospace Engineering
-  institution: Embry-Riddle Aeronautical University, Daytona Beach, FL
-  year: Aug 2022 – May 2026
-  description:
-    - Areas of Concentration: Astronautics and Spacecraft Design
-    - Minors: Computer Science, Business Administration
-    - Activities and Societies: Kappa Alpha Psi Fraternity Inc., National Society of Black Engineers (NSBE)
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Science in Aerospace Engineering
+      institution: Embry-Riddle Aeronautical University, Daytona Beach, FL
+      year: Aug 2022 – May 2026
+      description:
+        - Areas of Concentration: Astronautics and Spacecraft Design
+        - Minors: Computer Science, Business Administration
+        - Activities and Societies: Kappa Alpha Psi Fraternity Inc., National Society of Black Engineers (NSBE)
 
 - title: Experience
   type: time_table
@@ -93,7 +96,7 @@
         - Compared numerical displacements, stresses, and reaction forces with analytical hand calculations.
         - Verified model accuracy through percentage error analysis and load-path interpretation.
 
-     - title: Space Debris Detection for Orbital Scene Awareness
+    - title: Space Debris Detection for Orbital Scene Awareness
       institution: Embry-Riddle Aeronautical University
       year: Mar 2025 – Apr 2025
       description:
@@ -208,4 +211,3 @@
       description:
         - Participated in community service initiatives and city-sponsored volunteer programs.
         - Supported local events and civic engagement efforts benefiting residents and public spaces.
-
