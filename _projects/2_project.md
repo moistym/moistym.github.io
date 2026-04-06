@@ -28,8 +28,8 @@ NEXA is an AI-powered surveillance system designed to enhance property monitorin
   - RF receiver + transmitter
 
 ## System Architecture
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid 
       loading="eager" 
       path="assets/img/nexa_system_architecture.png" 
@@ -38,6 +38,8 @@ NEXA is an AI-powered surveillance system designed to enhance property monitorin
     %}
   </div>
 </div>
+
+The NEXA system operates through an end-to-end edge pipeline that integrates perception, classification, and autonomous response. Onboard sensing feeds into real-time object detection using YOLOv11 deployed on embedded hardware, followed by event interpretation and a decision layer that triggers autonomous responses and user alerts.
 
 ## Data & Training Pipeline
 - **Model:** YOLOv11 with pretrained initialization
