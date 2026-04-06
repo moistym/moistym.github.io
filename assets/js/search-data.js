@@ -53,9 +53,9 @@ ninja.data = [{
           description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-navigating-enhanced-exploration-assistance-nexa",
-          title: 'Navigating Enhanced Exploration Assistance (NEXA)',
-          description: "Edge AI for autonomous drone security and real-time alerting",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-light-intensity-measurement-amp-validation-of-radiative-laws",
