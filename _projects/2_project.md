@@ -1,33 +1,76 @@
 ---
 layout: page
-title: Navigating Enhanced Exploration Assistance (NEXA)
-description: Edge AI for autonomous drone security and real-time alerting
+title: NEXA: Edge AI Drone Surveillance System
+description: Real-Time Autonomous Perception on Embedded Hardware
 img: assets/img/IMG_1429.jpeg
 importance: 2
 ---
 
 ## Role
-Principal Investigator, [Engineering Physics Propulsion Laboratory](https://eppl.us/)
+**Principal Investigators:** Azhari Abbas, Caleb Fakunle  
+**Team Members:** Ryan Powell, Donovan Livingston  
+**Faculty Advisor:** Dr. William MacKunis
 
 ## Overview
-NEXA, [Navigating Enhanced Exploration Assistance](https://eppl.us/projects/project-10/), integrates AI with drone platforms for residential security and property monitoring. The system targets autonomous piloting, threat detection, and real-time alerting with privacy-preserving, on-device perception and decision-making.
+NEXA is an AI-powered surveillance system designed to enhance property monitoring through autonomous drones for passive threat detection and response. By combining onboard perception, embedded edge AI, and autonomous flight capabilities, the platform supports automated monitoring and instant alerts while reducing reliance on fixed cameras and cloud-based processing. This improves privacy, lowers latency, and expands area coverage for real-world surveillance tasks.
 
-## Technical Approach
-- Challenging-data learning for noise, occlusions, illumination and weather changes, motion blur, class imbalance, missing labels, and privacy constraints
-- Domain randomization to reduce distribution shift
-- Online hard example mining and test-time adaptation for streaming video
-- Dynamic active sensing that links perception with path planning
-- End-to-end edge deployment on NVIDIA Jetson platforms
-- Real-time object detection with Ultralytics YOLO reaching 56 FPS
+## Applications
+- **Residential security:** mobile perimeter monitoring and real-time alerts
+- **Agricultural monitoring:** livestock, wildlife, and anomaly detection across farmland
+- **Search and rescue:** autonomous patrol and rapid target identification
 
-## Outputs
-- Deployment-ready architecture for on-device inference and secure alerting
-- Evaluation plan covering adverse conditions, long-duration patrols, and label-scarce updates
+## Hardware
+- **Compute:** NVIDIA Jetson Orin NX 16GB
+- **Flight Control:** CubePilot Orange Cube (ArduPilot via Mission Planner)
+- **Sensing & Comms:**
+  - Intel RealSense Depth Camera D455
+  - CubePilot Here3+ CAN GNSS GPS Module
+  - RF receiver + transmitter
+
+## System Architecture
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid 
+      loading="eager" 
+      path="assets/img/nexa_system_architecture.png" 
+      title="NEXA End-to-End System Architecture" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
+
+## Data & Training Pipeline
+- **Model:** YOLOv11 with pretrained initialization
+- **Datasets:** COCO, UAVDT, and VisDrone
+- **Dataset size:** 100,000+ images
+- **Classes:** person, vehicle, animal
+- **Augmentations:** scaling, flipping, lighting variation
+- **Training hardware:** NVIDIA T4 ×2
+
+## Discussion
+- Speed vs. accuracy remains a key tradeoff under edge compute constraints
+- Small, high-altitude objects remain the most challenging to detect reliably
+- Environmental variation can affect confidence and recall
+- Edge deployment reduces reliance on fixed cameras and cloud processing, improving privacy, latency, and area coverage
+
+## Limitations & Future Work
+**Current limitations**
+- Very small targets remain difficult to detect
+- Extreme lighting and weather can reduce confidence
+- Flight time constrains long-duration patrol coverage
+- Dataset diversity can still be improved
+
+**Next steps**
+- Multi-drone coordination
+- Infrared and thermal sensing integration
+- Better low-light and adverse-weather evaluation
+- Label-scarce update strategies in field trials
+- Long-duration patrol and docking workflows
 
 ## References
 - Nascimento, Renato G., et al., *Quadcopter Control Optimization through Machine Learning*, AIAA SciTech Forum, 2020.
-- https://www.nature.com/articles/s41598-021-91325-w
-- https://www.spiceworks.com/tech/artificial-intelligence/articles/how-does-ai-learn-through-ml-algorithms/
+- *Weather Constraints on Global Drone Flyability*, Scientific Reports.
+- *How Artificial Intelligence Learns Through Machine Learning Algorithms*, Spiceworks.
 
 ## NEXA Drone
 <div class="row">
@@ -36,9 +79,12 @@ NEXA, [Navigating Enhanced Exploration Assistance](https://eppl.us/projects/proj
   </div>
 </div>
 
-## Spring 2025 ERAU Discovery Day Poster
+## Posters
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/nexa_poster.png" title="Discovery Day 2025" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/nexa_spie_poster.png" title="SPIE Poster" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/nexa_ncur_2026_poster.png" title="NCUR 2026 Poster" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
