@@ -29,7 +29,7 @@ NEXA is an AI-powered surveillance system designed to enhance property monitorin
 
 ## System Architecture
 <div class="row justify-content-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
+  <div class="col-sm-5 mt-3 mt-md-0">
     {% include figure.liquid 
       loading="eager" 
       path="assets/img/nexa_system_architecture.png" 
