@@ -38,8 +38,8 @@ The final hot-case solution produced a global spacecraft temperature range of 29
   </div>
 </div>
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-9 col-md-7 col-lg-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/HOTCASETABLE.png" title="Hot-Case Pass/Fail Assessment" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -56,8 +56,8 @@ The final cold-case solution produced a global spacecraft temperature range of -
   </div>
 </div>
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-9 col-md-7 col-lg-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/COLDCASETABLE.png" title="Cold-Case Pass/Fail Assessment​" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
