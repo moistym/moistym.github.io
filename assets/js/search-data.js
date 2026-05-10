@@ -48,6 +48,11 @@ ninja.data = [{
           description: "YOLOv8-based object detection model for identifying debris and satellites in synthetic orbital imagery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
+            },},{id: "projects-parrot-mambo-quadcopter-control",
+          title: 'Parrot Mambo Quadcopter Control',
+          description: "Experimental dynamics and control project using MATLAB/Simulink to model, simulate, and implement attitude control on a Parrot Mambo quadcopter.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
             },},{id: "projects-orbitflex-cubesat-team",
           title: 'OrbitFlex CubeSat Team',
           description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
