@@ -32,8 +32,8 @@ The hot-case model used the mixed passive thermal control configuration with low
 
 The final hot-case solution produced a global spacecraft temperature range of 29.48°C to 37.37°C. This showed a moderate and stable sunlit thermal response, with the passive surface-property layout providing enough heat rejection to prevent excessive temperature rise.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-10 col-md-8 col-lg-7 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/HOTCASE.png" title="Hot Case Analysis" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -50,8 +50,8 @@ The cold-case model used the same mixed passive thermal architecture as the hot 
 
 The final cold-case solution produced a global spacecraft temperature range of -16.95°C to -13.95°C. This showed that the spacecraft retained heat effectively and did not collapse toward unrealistic deep-space temperatures, supporting the feasibility of the passive-first thermal regulation approach.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-10 col-md-8 col-lg-7 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/COLDCASE.png" title="Cold Case Analysis" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -70,21 +70,21 @@ The operational sequence was built around a two-year mission timeline. After dep
 
 The ConOps also defines the repeat cadence for key activities. Image collection and downlink operations repeat every two hours, battery charging repeats daily, and full subsystem health data collection and downlink repeats every two weeks. At the end of the mission, the spacecraft powers off, closes out operations, and archives mission data.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-10 col-md-8 col-lg-7 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/ConOps (2).png" title="OrbitFlex Concept of Operations timeline showing deployment, checkout, recurring science operations, health checks, and end-of-life closeout." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
 ## Gallery
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-10 col-md-8 col-lg-7 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/Orbitflex 2.png" title="Exploded view with component identifiers" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+  <div class="col-10 col-md-8 col-lg-7 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/Orbitflex 3.png" title="Deployed configuration" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
