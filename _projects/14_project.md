@@ -3,7 +3,7 @@ layout: page
 title: Parrot Mambo Quadcopter Control
 description: Experimental dynamics and control project using MATLAB/Simulink to model, simulate, and implement attitude control on a Parrot Mambo quadcopter.
 img: assets/img/Mambo-pic-9.jpg
-importance: 14
+importance: 8
 ---
 
 ## Overview
