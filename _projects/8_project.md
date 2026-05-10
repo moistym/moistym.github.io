@@ -3,7 +3,7 @@ layout: page
 title: Finite Element Structural Analysis Using Simcenter Femap with NASTRAN
 description: Static structural analysis of beam and rod elements with validation against analytical solutions
 img: assets/img/fea_cover.jpg
-importance: 9
+importance: 12
 ---
 
 ## Overview
