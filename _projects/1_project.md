@@ -18,6 +18,64 @@ Environmental and Test Engineer
 - Supported contamination control by applying ISO Class 8 cleanroom practices during assembly and test.
 - Implemented surface cleanliness controls aligned with MIL-STD-1246C.
 
+## Thermal Analysis
+
+A passive thermal control approach was developed for OrbitFlex to regulate spacecraft temperatures without relying on active thermal hardware. The design used a mixed surface-property strategy, where low-emissivity insulated faces reduced radiative heat loss and higher-emissivity coated faces provided controlled heat rejection.
+
+The thermal hardware stack included MLI blankets, surface tuning tapes, AZ-93 white coating, Aeroglaze Z306 black coating, gap pads, RTV/epoxy, heat spreaders, battery pocket insulation, and PEEK/G10 isolation mounts. Together, these features gave the spacecraft several passive methods to shape heat flow, retain heat in colder conditions, and reject heat during warmer sunlit cases.
+
+Thermal performance was evaluated in ANSYS Mechanical using solar heat flux, radiation-to-ambient boundary conditions, and internal volumetric heat generation. Both hot-case and cold-case simulations were used to check whether the passive regulation concept could maintain stable spacecraft temperatures across expected operating conditions.
+
+### Hot-Case Analysis
+
+The hot-case model used the mixed passive thermal control configuration with low-emissivity insulated faces, $\epsilon = 0.05$, and higher-emissivity heat-rejecting faces, $\epsilon = 0.80$. A solar heat flux of 500 W/m² was applied to represent a sunlit thermal loading condition.
+
+The final hot-case solution produced a global spacecraft temperature range of 29.48°C to 37.37°C. This showed a moderate and stable sunlit thermal response, with the passive surface-property layout providing enough heat rejection to prevent excessive temperature rise.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/HOTCASE.png" title="Hot Case Analysis" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/HOTCASETABLE.png" title="Hot-Case Pass/Fail Assessment" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+### Cold-Case Analysis
+
+The cold-case model used the same mixed passive thermal architecture as the hot case, but with reduced solar heating of 150 W/m² and lower internal dissipation to represent cold operational or survival conditions.
+
+The final cold-case solution produced a global spacecraft temperature range of -16.95°C to -13.95°C. This showed that the spacecraft retained heat effectively and did not collapse toward unrealistic deep-space temperatures, supporting the feasibility of the passive-first thermal regulation approach.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/COLDCASE.png" title="Cold Case Analysis" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/COLDCASETABLE.png" title="Cold-Case Pass/Fail Assessment​" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+## Concept of Operations
+
+I also supported the development of the OrbitFlex Concept of Operations, which defines the spacecraft mission flow from pre-launch rehearsal through end-of-life shutdown. The ConOps lays out the major operational phases, including deployer launch, transfer to GEO, spacecraft separation, power-on, detumble and attitude stabilization, solar panel deployment, first ground contact, subsystem checkout, payload calibration, image collection, data downlink, and recurring health monitoring.
+
+The operational sequence was built around a two-year mission timeline. After deployment and checkout, OrbitFlex enters a repeating science operations cycle where the spacecraft captures images, performs astrometric onboard processing, downlinks verified image data, and periodically clears onboard storage. Battery charging and subsystem health checks are included as recurring operational activities to maintain spacecraft readiness during normal mission operations.
+
+The ConOps also defines the repeat cadence for key activities. Image collection and downlink operations repeat every two hours, battery charging repeats daily, and full subsystem health data collection and downlink repeats every two weeks. At the end of the mission, the spacecraft powers off, closes out operations, and archives mission data.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/ConOps (2).png" title="OrbitFlex Concept of Operations timeline showing deployment, checkout, recurring science operations, health checks, and end-of-life closeout." class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 ## Gallery
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
