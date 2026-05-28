@@ -3,7 +3,7 @@ layout: page
 title: Mixture-Ratio Sensitivity of a Hydrogen–Oxygen Rocket Engine Using NASA CEA
 description: How Tc and Isp change with O/F for GH2/GO2 at 68 atm, restricted vs full equilibrium chemistry
 img: assets/img/cea_cover.png
-importance: 7
+importance: 8
 ---
 
 ## Overview
