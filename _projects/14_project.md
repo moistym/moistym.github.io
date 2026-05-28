@@ -31,7 +31,7 @@ The controller reduced oscillations, improved damping, and helped the quadcopter
 You can view the full project report here:
 
 <iframe 
-  src="/assets/pdf/Mambo_Parrot_Project.pdf"
+  src="/assets/pdf/Mambo_Parrot_Project (1).pdf"
   width="100%"
   height="600px"
   style="border: none;">
