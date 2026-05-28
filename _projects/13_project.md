@@ -3,7 +3,7 @@ layout: page
 title: Space Debris Detection for Orbital Scene Awareness
 description: YOLOv8-based object detection model for identifying debris and satellites in synthetic orbital imagery
 img: assets/img/9.jpg
-importance: 6
+importance: 7
 ---
 
 ## Overview
