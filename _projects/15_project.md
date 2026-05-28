@@ -123,4 +123,9 @@ Additional work will focus on constrained MLLM procedure generation and simulati
 ## Report
 You can view the full project report here:
 
-[Download Project Report](assets/pdf/rpo_aiaa_scitech2027.pdf)
+<iframe 
+  src="/assets/pdf/rpo_aiaa_scitech2027.pdf"
+  width="100%"
+  height="600px"
+  style="border: none;">
+</iframe>
