@@ -3,7 +3,7 @@ layout: page
 title: Vision-Generative Assurance for Spacecraft Rendezvous and Proximity Operations
 description: AIAA SciTech 2027 research project on assurance-centered generative autonomy for spacecraft RPO.
 img: assets/img/vision_generative_rpo.png
-importance: 10
+importance: 5
 ---
 
 ## Overview
