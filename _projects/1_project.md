@@ -3,7 +3,7 @@ layout: page
 title: OrbitFlex CubeSat Team
 description: 3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.
 img: assets/img/of1.png
-importance: 1
+importance: 2
 ---
 
 ## Overview
