@@ -3,7 +3,7 @@ layout: page
 title: "NEXA: Edge AI Drone Surveillance System"
 description: Real-Time Autonomous Perception on Embedded Hardware
 img: assets/img/IMG_1429.jpeg
-importance: 2
+importance: 1
 ---
 
 ## Role
