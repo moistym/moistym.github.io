@@ -3,7 +3,7 @@ layout: page
 title: Development of a 6 Degrees of Freedom (6DOF) Flight Dynamics Model for the Airbus A320
 description: MATLAB-based rigid-body flight dynamics model capturing full translational and rotational aircraft motion
 img: assets/img/1760816652076.jpg
-importance: 9
+importance: 10
 ---
 
 ## Overview
