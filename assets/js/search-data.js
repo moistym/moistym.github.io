@@ -53,6 +53,11 @@ ninja.data = [{
           description: "Experimental dynamics and control project using MATLAB/Simulink to model, simulate, and implement attitude control on a Parrot Mambo quadcopter.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_project/";
+            },},{id: "projects-vision-generative-assurance-for-spacecraft-rendezvous-and-proximity-operations",
+          title: 'Vision-Generative Assurance for Spacecraft Rendezvous and Proximity Operations',
+          description: "AIAA SciTech 2027 research project on assurance-centered generative autonomy for spacecraft RPO.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15_project/";
             },},{id: "projects-orbitflex-cubesat-team",
           title: 'OrbitFlex CubeSat Team',
           description: "3U CubeSat optical SSA mission for GEO line-of-sight measurement collection.",
