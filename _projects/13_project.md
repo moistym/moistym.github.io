@@ -75,7 +75,7 @@ The trained model performs:
 - **Class prediction** for debris and satellites
 - **Confidence scoring** for each detected object
 
-This approach is well suited for orbital detection tasks because it can identify small objects efficiently while maintaining strong performance across visually different scene types.
+This approach is well-suited for orbital detection tasks because it can identify small objects efficiently while maintaining strong performance across visually different scene types.
 
 Based on the saved training weights, the final detector was built on a **YOLOv8m** backbone and trained using an image size of **832 pixels**.
 
@@ -99,14 +99,6 @@ The model was able to detect both large spacecraft and smaller debris-like targe
 Selected detection outputs across different orbital scenarios, including Earth-limb views, star-field backgrounds, and cluttered multi-object scenes.
 </div>
 
-## Key Capabilities
-
-- Detection of **debris and satellites** in orbital imagery
-- Robust behavior across **Earth-background and deep-space scenes**
-- Detection in both **single-object** and **multi-object cluttered scenes**
-- Strong qualitative performance on **small object localization**
-- Practical use of **deep learning for SSA-related perception tasks**
-
 ## Challenges
 
 Several factors make orbital debris detection difficult:
@@ -129,19 +121,3 @@ Potential next steps for this project include:
 - Class balancing improvements for the less frequent satellite class
 - Domain adaptation from synthetic imagery to more realistic or flight-like imagery
 - Deployment optimization for low-SWaP onboard vision systems
-
-## Takeaways
-
-This project demonstrates how modern object detection methods can be applied to **space-domain perception problems**, especially in the context of **space debris monitoring and orbital scene awareness**.
-
-Reliable detection of debris and spacecraft is a foundational capability for future autonomous space systems. It supports safer operations in increasingly congested orbital environments and helps enable more advanced functions such as inspection, rendezvous support, and traffic awareness.
-
-## Tools and Techniques
-
-- Python
-- Ultralytics YOLOv8
-- Object detection
-- Deep learning for computer vision
-- Synthetic dataset training
-- Orbital scene analysis
-- Space situational awareness applications
