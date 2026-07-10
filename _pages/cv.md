@@ -1,10 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: curriculum vitae
+title: resume
 nav: true
-nav_order: 5
-cv_pdf:
+nav_order: 3
+cv_pdf: "/assets/pdf/Azhari_Abbas_CV_Spring_2025__Copy_ (8).pdf"
 description:
 toc:
   sidebar: left
