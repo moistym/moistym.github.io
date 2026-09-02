@@ -23,7 +23,7 @@ profile:
     </p>
 ---
 
-Hello! My name is Azhari Abbas. I’m an Aerospace Engineer with a deep obsession for AI and autonomous systems. My interests sit right at the intersection of hardware and edge intelligence.
+Hello! My name is Azhari Abbas. I’m an Aerospace Engineer with a deep obsession for AI and autonomous systems.
 
 My experience includes research roles and internships at the [XD Lab](https://xdlab.space/), Embry-Riddle's [Engineering Physics Propulsion Lab](https://eppl.us/), Mitsubishi Power Americas, Northrop Grumman, and [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
 
