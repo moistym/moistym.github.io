@@ -23,8 +23,8 @@ profile:
     </p>
 ---
 
-Hello! My name is Azhari Abbas. I’m a master's Aerospace Engineering student at the University of Florida. Currently, I’m working on [developing an edge AI platform for autonomous drone security](https://eppl.us/projects/project-10/). In parallel, I am researching foundational models for orbital tasks.
+Hello! My name is Azhari Abbas. I’m an Aerospace Engineer with a deep obsession for AI and autonomous systems. My interests sit right at the intersection of hardware and edge intelligence.
 
-My interests sit at the intersection of space engineering and artificial intelligence. My experience includes research roles and internships at the [XD Lab](https://xdlab.space/), Embry-Riddle's [Engineering Physics Propulsion Lab](https://eppl.us/), Mitsubishi Power Americas, Northrop Grumman, and [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
+My experience includes research roles and internships at the [XD Lab](https://xdlab.space/), Embry-Riddle's [Engineering Physics Propulsion Lab](https://eppl.us/), Mitsubishi Power Americas, Northrop Grumman, and [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
 
-You can learn more about my experience on my [CV](/cv/) and explore my work on the [projects](/projects/) page. Outside of engineering, I spend time studying personal finance and learning from history's greatest entrepreneurs.
+You can explore my work on the [projects](/projects/) page. Outside of engineering, I spend time playing sports and learning from history's greatest entrepreneurs.
