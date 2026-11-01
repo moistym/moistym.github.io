@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description:
+description: Computer vision, embedded autonomy, spacecraft dynamics, and experimental engineering.
 nav: true
 nav_order: 3
 display_categories: false

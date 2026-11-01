@@ -7,10 +7,12 @@ importance: 2
 ---
 
 ## Overview
-OrbitFlex is a 3U CubeSat mission to support optical space situational awareness of objects in the geostationary belt. The mission collects multi-image datasets and produces a mini-catalog with line-of-sight measurements in right ascension and declination.
+OrbitFlex is a 3U CubeSat mission to support optical space situational awareness of objects in the geostationary belt. The mission is designed to collect multi-image datasets and produce a mini-catalog with line-of-sight measurements in right ascension and declination.
 
 ## Role
-Environmental and Test Engineer
+Environmental, Test, & ConOps Engineer
+
+August 2025 – May 2026
 
 ## Responsibilities
 - Developed end-to-end verification and validation planning for the 3U spacecraft, aligned with NASA GEVS test philosophy and requirements.

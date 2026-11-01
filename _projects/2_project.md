@@ -11,6 +11,9 @@ importance: 1
 **Team Members:** Ryan Powell, Donovan Livingston  
 **Faculty Advisor:** Dr. William MacKunis
 
+## My Contribution
+As a Principal Investigator, I co-led the 100,000+ image dataset effort and deployed perception models on NVIDIA Jetson hardware.
+
 ## Overview
 NEXA is an AI-powered surveillance system designed to enhance property monitoring through autonomous drones for passive threat detection and response. By combining onboard perception, embedded edge AI, and autonomous flight capabilities, the platform supports automated monitoring and instant alerts while reducing reliance on fixed cameras and cloud-based processing. This improves privacy, lowers latency, and expands area coverage for real-world surveillance tasks.
 

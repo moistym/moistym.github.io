@@ -3,50 +3,45 @@
   contents:
     - name: Full Name
       value: Azhari Abbas
+    - name: Location
+      value: Los Angeles, California
     - name: Email
       value: azhari.abbas2@gmail.com
     - name: Phone
       value: "+1 (954) 882-7461"
     - name: Languages
-      value: English, Arabic, Spanish (Classsroom Study)
+      value: English, Arabic, Spanish (Classroom Study)
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science in Aerospace Engineering
-      institution: University of Florida, Gainsville, FL
-      year: Aug 2026 – May 2028
-      description:
-        - Areas of Concentration: Advanced GNCA
-
     - title: Bachelor of Science in Aerospace Engineering
       institution: Embry-Riddle Aeronautical University, Daytona Beach, FL
       year: Aug 2022 – May 2026
       description:
+        - Graduated May 2026
         - Areas of Concentration: Astronautics and Spacecraft Design
-        - Minors: Computer Science, Business Administration
+        - Completed Minors: Computer Science, Business Administration
         - Activities and Societies: Kappa Alpha Psi Fraternity Inc., National Society of Black Engineers (NSBE)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Product Line Management Associate (Part-time)
+    - title: Product Line Management Associate
       institution: Mitsubishi Power Americas Inc., Orlando, Florida
       year: April 2024 – May 2026
       description:
         - Analyzed operational data from high-capacity gas turbines to support product life cycle management and strategy development.
         - Coordinated communication between engineering, sales, and program managers across prioritization and production cycles.
 
-    - title: Test and Evaluation Engineering Intern (Full-time)
+    - title: Production Test Engineering Intern
       institution: Northrop Grumman Corporation, Palmdale, California
       year: June 2025 – August 2025
       description:
-        - Active U.S. Department of Defense Secret/SAP clearance.
-        - Conducted testing of hydraulic, environmental control, electrical, and fuel systems.
-        - Authored Acceptance Test Procedures to ensure system safety and compliance.
-        - Enhanced augmented reality tools to guide technicians during system testing.
+        - Supported production testing on the B-21 program.
+        - Worked with HoloLens augmented reality tools to support production test workflows.
 
-    - title: Mechanical Engineering Intern (Part-time)
+    - title: Mechanical Engineering Intern
       institution: Docking Robotics LLC, Daytona Beach, Florida
       year: June 2023 – November 2023
       description:

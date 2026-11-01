@@ -6,17 +6,17 @@
     "email": "azhari.abbas2@gmail.com",
     "phone": "+1 (954) 882-7461",
     "url": "",
-    "summary": "Experienced in test and evaluation engineering, edge AI for autonomous systems, and spacecraft environmental testing with an active U.S. DoD Secret clearance.",
+    "summary": "Aerospace engineer who graduated from Embry-Riddle Aeronautical University in May 2026 with a B.S. in Aerospace Engineering, concentrations in Astronautics and Spacecraft Design, and completed minors in Computer Science and Business Administration. Experience in computer vision, embedded edge AI, spacecraft simulation, and engineering test.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Daytona Beach",
+      "city": "Los Angeles",
       "countryCode": "US",
-      "region": "Florida"
+      "region": "California"
     },
     "profiles": []
   },
-    "education": [
+  "education": [
     {
       "institution": "Embry-Riddle Aeronautical University",
       "area": "Aerospace Engineering (Astronautics and Spacecraft Design)",
@@ -24,40 +24,85 @@
       "startDate": "2022-08-01",
       "endDate": "2026-05-01",
       "courses": [
-        "Minors: Computer Science and Business Administration",
+        "Graduated May 2026",
+        "Completed minors: Computer Science and Business Administration",
         "Kappa Alpha Psi Fraternity Inc.",
         "National Society of Black Engineers (NSBE)"
       ]
     }
   ],
-    "skills": [
+  "skills": [
     {
       "name": "Programming and Flight Software",
-      "keywords": ["Python", "MATLAB", "C", "C++", "CUDA", "Arduino", "ROS", "PX4", "YOLO"]
+      "keywords": [
+        "Python",
+        "MATLAB",
+        "C",
+        "C++",
+        "CUDA",
+        "Arduino",
+        "ROS",
+        "PX4",
+        "YOLO"
+      ]
     },
     {
       "name": "Simulation and Analysis",
-      "keywords": ["Simulink", "NASTRAN", "Ansys Fluent", "STK", "GMAT", "MES", "CPLM", "NASA GEVS"]
+      "keywords": [
+        "Simulink",
+        "NASTRAN",
+        "Ansys Fluent",
+        "STK",
+        "GMAT",
+        "MES",
+        "CPLM",
+        "NASA GEVS"
+      ]
     },
     {
       "name": "CAD",
-      "keywords": ["CATIA", "SolidWorks", "Inventor", "Siemens NX"]
+      "keywords": [
+        "CATIA",
+        "SolidWorks",
+        "Inventor",
+        "Siemens NX"
+      ]
     }
   ],
   "certificates": [
-    { "name": "SOLIDWORKS Professional (CSWP)", "date": "2019-01-01", "issuer": "Dassault Systèmes" },
-    { "name": "Autodesk Professional Certification – Design and Drafting", "date": "2019-01-01", "issuer": "Autodesk" },
-    { "name": "Autodesk Inventor Professional Certification", "date": "2022-01-01", "issuer": "Autodesk" },
-    { "name": "Arduino Certification Program", "date": "2023-01-01", "issuer": "Arduino" },
-    { "name": "Northrop Grumman ASTAR", "date": "2025-01-01", "issuer": "Northrop Grumman" }
+    {
+      "name": "SOLIDWORKS Professional (CSWP)",
+      "date": "2019-01-01",
+      "issuer": "Dassault Systèmes"
+    },
+    {
+      "name": "Autodesk Professional Certification – Design and Drafting",
+      "date": "2019-01-01",
+      "issuer": "Autodesk"
+    },
+    {
+      "name": "Autodesk Inventor Professional Certification",
+      "date": "2022-01-01",
+      "issuer": "Autodesk"
+    },
+    {
+      "name": "Arduino Certification Program",
+      "date": "2023-01-01",
+      "issuer": "Arduino"
+    },
+    {
+      "name": "Northrop Grumman ASTAR",
+      "date": "2025-01-01",
+      "issuer": "Northrop Grumman"
+    }
   ],
   "work": [
     {
       "name": "Mitsubishi Power Americas Inc.",
-      "position": "Product Line Management Associate (Part-time)",
+      "position": "Product Line Management Associate",
       "url": "",
       "startDate": "2024-04-01",
-      "endDate": "Present",
+      "endDate": "2026-05-01",
       "summary": "Analyzed operational data from high-capacity gas turbines to support product life cycle management and strategy development.",
       "highlights": [
         "Coordinated communication between engineering, sales, and program managers across prioritization and production cycles."
@@ -65,20 +110,18 @@
     },
     {
       "name": "Northrop Grumman Corporation",
-      "position": "Test and Evaluation Engineering Intern (Full-time)",
+      "position": "Production Test Engineering Intern",
       "url": "",
       "startDate": "2025-06-01",
       "endDate": "2025-08-01",
-      "summary": "Active U.S. Department of Defense Secret/SAP clearance holder conducting systems testing in a high-stakes environment.",
+      "summary": "Supported production testing on the B-21 program.",
       "highlights": [
-        "Conducted testing of hydraulic, environmental control, electrical, and fuel systems.",
-        "Authored Acceptance Test Procedures to ensure system safety and compliance.",
-        "Enhanced augmented reality tools to guide technicians during system testing."
+        "Worked with HoloLens augmented reality tools to support production test workflows."
       ]
     },
     {
       "name": "Docking Robotics LLC",
-      "position": "Mechanical Engineering Intern (Part-time)",
+      "position": "Mechanical Engineering Intern",
       "url": "",
       "startDate": "2023-06-01",
       "endDate": "2023-11-01",
@@ -92,25 +135,24 @@
   "projects": [
     {
       "name": "Navigating Enhanced Exploration Assistance (NEXA)",
-      "summary": "Developed an edge AI platform for autonomous drone security designed for challenging data environments including noise, occlusions, and weather changes.",
+      "summary": "Principal Investigator for an embedded drone perception research project.",
       "highlights": [
-        "Deployed an end-to-end edge stack on NVIDIA Jetson platforms with real-time YOLO object detection reaching 56 FPS.",
-        "Used domain randomization and online hard example mining to handle distribution shift and enable closed-loop autonomy without the cloud.",
-        "Created a deployment-ready architecture for privacy-preserving, on-device perception and secure alerting."
+        "Co-led work on a dataset of 100,000+ images.",
+        "Deployed perception models on NVIDIA Jetson hardware."
       ],
       "startDate": "2023-01-01",
       "endDate": "Present"
     },
     {
       "name": "OrbitFlex CubeSat Team",
-      "summary": "Served as Environmental and Test Engineer for a 3U CubeSat mission aimed at conducting optical Space Situational Awareness (SSA) of objects in the geostationary belt.",
+      "summary": "Environmental, Test, & ConOps Engineer for a 3U CubeSat mission designed for optical space situational awareness.",
       "highlights": [
         "Developed comprehensive end-to-end testing plans incorporating NASA GEVS Section 2.8 and vibroacoustic/shock procedures from Section 2.4.2.",
         "Implemented ISO Class 8 cleanroom protocols for assembly and testing to ensure compliance with MIL-STD-1246C surface cleanliness standards.",
-        "Contributed to data collection for generating mini-catalogs with line-of-sight (Right Ascension/Declination) measurements."
+        "Supported mission planning for line-of-sight measurements in right ascension and declination."
       ],
       "startDate": "2025-08-01",
-      "endDate": "Present"
+      "endDate": "2026-05-01"
     },
     {
       "name": "Light Intensity Measurement & Validation of Radiative Laws Using Arduino",
@@ -204,14 +246,46 @@
     }
   ],
   "awards": [
-    { "title": "ERAU Presidential Scholar", "date": "2025-01-01", "awarder": "Embry-Riddle Aeronautical University" },
-    { "title": "Fall 2024 Dean’s List", "date": "2025-01-01", "awarder": "Embry-Riddle Aeronautical University" },
-    { "title": "Spring 2025 Honor Roll", "date": "2025-05-01", "awarder": "Embry-Riddle Aeronautical University" },
-    { "title": "Summer 2025 Dean’s List", "date": "2025-08-01", "awarder": "Embry-Riddle Aeronautical University" },
-    { "title": "Fall 2025 Honor Roll", "date": "2025-12-01", "awarder": "Embry-Riddle Aeronautical University" },
-    { "title": "Jeffrey Randall Smith Memorial Scholar", "date": "2022-08-01", "awarder": "Scholarship Committee" },
-    { "title": "City of Coral Springs MLK Scholar", "date": "2024-01-01", "awarder": "City of Coral Springs" },
-    { "title": "Summer 2024 Dean’s List", "date": "2024-08-01", "awarder": "Embry-Riddle Aeronautical University" }
+    {
+      "title": "ERAU Presidential Scholar",
+      "date": "2025-01-01",
+      "awarder": "Embry-Riddle Aeronautical University"
+    },
+    {
+      "title": "Fall 2024 Dean’s List",
+      "date": "2025-01-01",
+      "awarder": "Embry-Riddle Aeronautical University"
+    },
+    {
+      "title": "Spring 2025 Honor Roll",
+      "date": "2025-05-01",
+      "awarder": "Embry-Riddle Aeronautical University"
+    },
+    {
+      "title": "Summer 2025 Dean’s List",
+      "date": "2025-08-01",
+      "awarder": "Embry-Riddle Aeronautical University"
+    },
+    {
+      "title": "Fall 2025 Honor Roll",
+      "date": "2025-12-01",
+      "awarder": "Embry-Riddle Aeronautical University"
+    },
+    {
+      "title": "Jeffrey Randall Smith Memorial Scholar",
+      "date": "2022-08-01",
+      "awarder": "Scholarship Committee"
+    },
+    {
+      "title": "City of Coral Springs MLK Scholar",
+      "date": "2024-01-01",
+      "awarder": "City of Coral Springs"
+    },
+    {
+      "title": "Summer 2024 Dean’s List",
+      "date": "2024-08-01",
+      "awarder": "Embry-Riddle Aeronautical University"
+    }
   ],
   "volunteer": [
     {
@@ -250,8 +324,17 @@
     }
   ],
   "languages": [
-    { "language": "English", "fluency": "Native/Fluent" },
-    { "language": "Arabic", "fluency": "Fluent" },
-    { "language": "Spanish", "fluency": "Classroom Study" }
+    {
+      "language": "English",
+      "fluency": "Native/Fluent"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Classroom Study"
+    }
   ]
 }

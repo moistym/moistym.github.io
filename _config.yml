@@ -8,7 +8,9 @@ middle_name: ""
 last_name: Abbas
 contact_note: >
   Feel free to connect with me on LinkedIn or reach out via email.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >
+  Azhari Abbas is an aerospace engineer working in computer vision, edge AI,
+  spacecraft simulation, and engineering test. Explore research and project results.
 footer_text:
 keywords: azhari abbas, azhari, abbas, erau, embry riddle, aerospace engineer, space ai, edge ai # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

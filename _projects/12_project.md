@@ -20,7 +20,7 @@ These tasks must be solved simultaneously while maintaining low computational co
 
 To address this problem, I developed a **multi-task computer vision pipeline** trained on thousands of simulated space scenes containing spacecraft in diverse orientations, lighting conditions, and backgrounds.
 
-The final model placed **28th out of 467 total submissions (top 5%)** on the competition leaderboard.
+The final model placed **28th out of 467 total submissions (approximately top 6%)** on the competition leaderboard.
 
 ## Dataset and Scene Complexity
 
@@ -82,9 +82,9 @@ During validation, the model achieved strong performance across the three primar
 - **Body Segmentation IoU:** 0.497  
 - **Solar Panel Segmentation IoU:** 0.021  
 
-These results produced a **top 5% leaderboard finish (28 / 467 submissions)** in the ESA SPARK 2026 Stream-1 challenge.
+The competition submission earned an **approximately top 6% leaderboard finish (28 / 467 submissions)** in the ESA SPARK 2026 Stream-1 challenge.
 
-The bounding box performance demonstrates reliable spacecraft localization across varying scene conditions. Segmentation performance shows clear body identification but remains challenging for thin solar panel structures, which often occupy only a small fraction of the image.
+These validation results were measured on synthetic imagery. Classification and bounding box localization were stronger than segmentation; solar-panel IoU of 0.021 remains a substantial limitation. These metrics do not establish performance on real spacecraft imagery or in flight.
 
 ## Key Capabilities
 
