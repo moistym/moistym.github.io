@@ -34,39 +34,15 @@
   "skills": [
     {
       "name": "Programming and Flight Software",
-      "keywords": [
-        "Python",
-        "MATLAB",
-        "C",
-        "C++",
-        "CUDA",
-        "Arduino",
-        "ROS",
-        "PX4",
-        "YOLO"
-      ]
+      "keywords": ["Python", "MATLAB", "C", "C++", "CUDA", "Arduino", "ROS", "PX4", "YOLO"]
     },
     {
       "name": "Simulation and Analysis",
-      "keywords": [
-        "Simulink",
-        "NASTRAN",
-        "Ansys Fluent",
-        "STK",
-        "GMAT",
-        "MES",
-        "CPLM",
-        "NASA GEVS"
-      ]
+      "keywords": ["Simulink", "NASTRAN", "Ansys Fluent", "STK", "GMAT", "MES", "CPLM", "NASA GEVS"]
     },
     {
       "name": "CAD",
-      "keywords": [
-        "CATIA",
-        "SolidWorks",
-        "Inventor",
-        "Siemens NX"
-      ]
+      "keywords": ["CATIA", "SolidWorks", "Inventor", "Siemens NX"]
     }
   ],
   "certificates": [
@@ -104,9 +80,7 @@
       "startDate": "2024-04-01",
       "endDate": "2026-05-01",
       "summary": "Analyzed operational data from high-capacity gas turbines to support product life cycle management and strategy development.",
-      "highlights": [
-        "Coordinated communication between engineering, sales, and program managers across prioritization and production cycles."
-      ]
+      "highlights": ["Coordinated communication between engineering, sales, and program managers across prioritization and production cycles."]
     },
     {
       "name": "Northrop Grumman Corporation",
@@ -115,9 +89,7 @@
       "startDate": "2025-06-01",
       "endDate": "2025-08-01",
       "summary": "Supported production testing on the B-21 program.",
-      "highlights": [
-        "Worked with HoloLens augmented reality tools to support production test workflows."
-      ]
+      "highlights": ["Worked with HoloLens augmented reality tools to support production test workflows."]
     },
     {
       "name": "Docking Robotics LLC",
@@ -136,10 +108,7 @@
     {
       "name": "Navigating Enhanced Exploration Assistance (NEXA)",
       "summary": "Principal Investigator for an embedded drone perception research project.",
-      "highlights": [
-        "Co-led work on a dataset of 100,000+ images.",
-        "Deployed perception models on NVIDIA Jetson hardware."
-      ],
+      "highlights": ["Co-led work on a dataset of 100,000+ images.", "Deployed perception models on NVIDIA Jetson hardware."],
       "startDate": "2023-01-01",
       "endDate": "Present"
     },
@@ -318,9 +287,7 @@
       "startDate": "2017-08-01",
       "endDate": "2019-07-01",
       "summary": "Participated in community service initiatives and city-sponsored volunteer programs.",
-      "highlights": [
-        "Supported local events and civic engagement efforts benefiting residents and public spaces."
-      ]
+      "highlights": ["Supported local events and civic engagement efforts benefiting residents and public spaces."]
     }
   ],
   "languages": [

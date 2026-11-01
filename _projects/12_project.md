@@ -77,10 +77,10 @@ Predicted segmentation masks for spacecraft components. Red overlays represent p
 
 During validation, the model achieved strong performance across the three primary evaluation tasks:
 
-- **Classification Accuracy:** 93.98%  
-- **Bounding Box IoU:** 0.927  
-- **Body Segmentation IoU:** 0.497  
-- **Solar Panel Segmentation IoU:** 0.021  
+- **Classification Accuracy:** 93.98%
+- **Bounding Box IoU:** 0.927
+- **Body Segmentation IoU:** 0.497
+- **Solar Panel Segmentation IoU:** 0.021
 
 The competition submission earned an **approximately top 6% leaderboard finish (28 / 467 submissions)** in the ESA SPARK 2026 Stream-1 challenge.
 

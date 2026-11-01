@@ -7,14 +7,17 @@ importance: 2
 ---
 
 ## Overview
+
 OrbitFlex is a 3U CubeSat mission to support optical space situational awareness of objects in the geostationary belt. The mission is designed to collect multi-image datasets and produce a mini-catalog with line-of-sight measurements in right ascension and declination.
 
 ## Role
+
 Environmental, Test, & ConOps Engineer
 
 August 2025 – May 2026
 
 ## Responsibilities
+
 - Developed end-to-end verification and validation planning for the 3U spacecraft, aligned with NASA GEVS test philosophy and requirements.
 - Defined vibroacoustic and shock test approaches to validate structural integrity and functional performance.
 - Supported contamination control by applying ISO Class 8 cleanroom practices during assembly and test.
@@ -79,6 +82,7 @@ The ConOps also defines the repeat cadence for key activities. Image collection 
 </div>
 
 ## Gallery
+
 <div class="row justify-content-center">
   <div class="col-10 col-md-8 col-lg-7 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/Orbitflex 2.png" title="Exploded view with component identifiers" class="img-fluid rounded z-depth-1" %}
@@ -92,6 +96,7 @@ The ConOps also defines the repeat cadence for key activities. Image collection 
 </div>
 
 ## References
+
 1. Weston, S. V., Burkhard, C. D., Stupl, J. M., Ticknor, R. L., Yost, B. D., Austin, R. A., Galchenko, P., Newman, L. K., and Santos Soto, L., "State-of-the-Art Small Spacecraft Technology," NASA/TP–20250000142, National Aeronautics and Space Administration, 2025. https://www.nasa.gov/smallsat-institute/sst-soa
 2. "Space-Based Imaging," Nüvü Camēras, 2026. https://www.nuvucameras.com/space-based-imaging-nuspace/
 3. "Onboard Computer (OBC)," EnduroSat, Sep. 30, 2025. https://www.endurosat.com/products/onboard-computer-with-gnss/
