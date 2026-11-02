@@ -23,10 +23,8 @@ profile:
     </p>
 ---
 
-I’m Azhari Abbas, an aerospace engineer focused on computer vision, edge AI, and autonomous systems. I graduated from Embry-Riddle Aeronautical University in May 2026 with a B.S. in Aerospace Engineering, concentrations in Astronautics and Spacecraft Design, and completed minors in Computer Science and Business Administration.
+Hello! My name is Azhari Abbas. I’m an aerospace engineer focused on computer vision, edge AI, and autonomous systems. I graduated from Embry-Riddle in May 2026 with a B.S. in Aerospace Engineering.
 
-My work spans embedded perception, spacecraft simulation, and engineering test. As a Principal Investigator on NEXA, I co-led work on a 100,000+ image dataset and deployed perception models on NVIDIA Jetson hardware. My research experience also includes serving as Lead Researcher at the [XD Lab](https://xdlab.space/) and working with Embry-Riddle’s [Engineering Physics Propulsion Lab](https://eppl.us/).
+My experience includes research and engineering roles at the [XD Lab](https://xdlab.space/), Embry-Riddle’s [Engineering Physics Propulsion Lab](https://eppl.us/), Mitsubishi Power Americas, Northrop Grumman, and [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
 
-In industry, I worked as a Production Test Engineering Intern at Northrop Grumman, a Product Line Management Associate at Mitsubishi Power Americas, and a Mechanical Engineering Intern at [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
-
-Explore my [projects]({{ '/projects/' | relative_url }}) for methods, results, and limitations, or view my [CV]({{ '/cv/' | relative_url }}). Outside engineering, I enjoy sports and learning from the history of entrepreneurship.
+Explore my work on the [projects]({{ '/projects/' | relative_url }}) page or view my [CV]({{ '/cv/' | relative_url }}). Outside engineering, I enjoy sports and learning from the history of entrepreneurship.
