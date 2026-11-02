@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Aerospace Engineer · Computer Vision · Edge AI
+subtitle: Space Infrastructure · Computer Vision · Edge AI
 
 profile:
   align: right
