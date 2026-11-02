@@ -23,7 +23,7 @@ profile:
     </p>
 ---
 
-Hello! My name is Azhari Abbas. I’m an aerospace engineer focused on computer vision, edge AI, and autonomous systems. I graduated from Embry-Riddle with a B.S. in Aerospace Engineering.
+Hello! My name is Azhari Abbas. I’m an aerospace engineer focused on autonomous spacecraft operations, computer vision, and embedded AI. I graduated from Embry-Riddle with a B.S. in Aerospace Engineering.
 
 My experience includes research and engineering roles at the [XD Lab](https://xdlab.space/), Embry-Riddle’s [Engineering Physics Propulsion Lab](https://eppl.us/), Mitsubishi Power Americas, Northrop Grumman, and [Docking Robotics](https://www.linkedin.com/company/docking-robotics/).
 
