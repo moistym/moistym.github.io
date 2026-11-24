@@ -6,7 +6,7 @@ subtitle: Space Infrastructure · Computer Vision · Edge AI
 
 profile:
   align: right
-  image: pfp3.jpg
+  image: unnamed.png
   image_circular: true # crops the image to make it circular
   more_info: |
     <p>
